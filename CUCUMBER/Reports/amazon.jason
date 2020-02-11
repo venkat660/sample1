@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "buying a product in amazon",
+        "description": "",
+        "id": "amazon-app-add-to-cart-placing;buying-a-product-in-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12640925800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user intialize amazon in chrome browser",
+            "match": {
+              "location": "Amazonstepdefinition.user_intialize_amazon_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8921104200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search for a mobile phone",
+            "match": {
+              "location": "Amazonstepdefinition.user_search_for_a_mobile_phone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5451981400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects a model",
+            "match": {
+              "location": "Amazonstepdefinition.user_selects_a_model()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000599200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "switching to a new window",
+            "match": {
+              "location": "Amazonstepdefinition.switching_to_a_new_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1655387300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user add item to the cart",
+            "match": {
+              "location": "Amazonstepdefinition.user_add_item_to_the_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "amazon app add to cart placing",
+    "description": "",
+    "id": "amazon-app-add-to-cart-placing",
+    "keyword": "Feature",
+    "uri": "E:/RELAX/ECLIPSE WORK FOLDER/CUCUMBER/Feature/Amazon.feature"
+  }
+]
